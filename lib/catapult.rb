@@ -1,6 +1,5 @@
 require 'pathname'
 require 'sprockets'
-require 'sprockets/commonjs'
 require 'stylus/sprockets'
 require 'coffee_script'
 
@@ -29,6 +28,10 @@ module Catapult
 
       env
     end
+  end
+
+  def self.manifest
+    @manifest ||= Sprockets::Manifest.new(environment, File.join(root, 'public', 'assets', 'manifest.json'))
   end
 
   def self.app

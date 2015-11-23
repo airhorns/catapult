@@ -16,11 +16,11 @@ Gem::Specification.new do |gem|
   gem.version       = Catapult::VERSION
 
   gem.add_dependency 'rack', '~> 1.5.2'
-  gem.add_dependency 'sprockets', '=2.11.0'
-  gem.add_dependency 'sprockets-commonjs'
+  gem.add_dependency 'sprockets', '~> 3.4.0'
   gem.add_dependency 'listen', '~> 0.7.3'
   gem.add_dependency 'rb-fsevent', '~> 0.9'
-  gem.add_dependency 'stylus', '~> 0.7.1'
+  gem.add_dependency 'stylus', '~> 1.0.1'
+  gem.add_dependency 'tilt', '~> 2.0.1'
   gem.add_dependency 'coffee-script', '~> 2.2.0'
   gem.add_dependency 'thor', '~> 0.18.1'
   gem.add_dependency 'thin', '~> 1.5.1'
