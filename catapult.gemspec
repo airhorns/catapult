@@ -22,6 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'stylus', '~> 1.0.1'
   gem.add_dependency 'tilt', '~> 2.0.1'
   gem.add_dependency 'coffee-script', '~> 2.2.0'
-  gem.add_dependency 'thor', '~> 0.18.1'
+  gem.add_dependency 'thor', '~> 0.19.0'
   gem.add_dependency 'thin', '~> 1.5.1'
 end
